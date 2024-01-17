@@ -32,7 +32,7 @@ button a{
 }
 .container{
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-weight: bold;
@@ -115,4 +115,15 @@ button a{
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 20px;
+   }
+   .lin a{
+    font-size: larger;
+    color: black;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+   }
+   .lin a:hover{
+    background-color: red;
    }
